@@ -1,0 +1,5 @@
+// make icon bar clickable
+    $(".parent").on("click", function () {
+
+        $(".navbar ul").slideToggle();
+    });    

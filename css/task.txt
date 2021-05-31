@@ -1,0 +1,100 @@
+.navbar { overflow: hidden; background-color: deepskyblue; position: relative}
+
+
+.navbar span {
+    font-size: 38px;
+      background-color: white;
+        transition: all .4s ease-in-out;
+          padding: 10px 30px;
+            color:cadetblue;
+             cursor: pointer
+
+}
+
+.navbar span:hover {overflow: hidden;color: ghostwhite; background-color: yellowgreen}
+
+
+.navbar ul li {
+    display: inline-block;
+    color: #FFF;
+    font-size: 20px;
+     font-weight: 200;
+     font-style: italic;
+    padding: 24px 30px;
+    transition: all .4s ease-in-out;
+     cursor: pointer;
+}
+
+.navbar ul li:hover {
+ color: skyblue;
+     background-color: greenyellow
+
+}
+
+/* style the icon bar */
+.parent {
+    margin: -49px -201px -3px 20px;
+    position: absolute;
+    top: 51px;
+     cursor: pointer
+}
+
+
+
+.parent div {
+
+    width: 45px;
+    height: 6px;
+    background-color: #49cc53;
+    color: #FFF;
+    margin: 7px 218px;
+
+}
+/* style the icon bar */
+
+
+/* start media */
+@media (max-width: 767px) {
+
+ .navbar ul { display: none }
+
+.navbar span { margin-left: -15px}
+
+.navbar span { font-size: 25px }
+
+.navbar span:hover {color: ghostwhite; background-color: yellowgreen}
+
+    .navbar ul { background-color: cyan }
+
+    .navbar ul li{
+    cursor: pointer;
+     width: 100%;
+      text-align: center;
+        background: #000;
+         margin-bottom: 5px;
+            transition: all .4s ease-in-out;
+
+    }
+
+    .parent { position: absolute; right: -4px }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+     .navbar ul {     margin-right: -32px }
+
+
+.navbar ul li { padding: 17px 18px }
+
+}
+
+
+@media (min-width: 768px)  {
+    .navbar ul {
+     display: block !important
+    }
+
+}
+/* end media */
+
+/* end navbar  */
